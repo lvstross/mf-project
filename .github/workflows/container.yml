@@ -11,6 +11,9 @@ defaults:
   run:
     working-directory: container
 
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
